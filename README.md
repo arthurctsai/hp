@@ -1,2 +1,2 @@
-# hp
-Hyperbolic Power transformation/distribution
+# Hyperbolic Power transformation
+
