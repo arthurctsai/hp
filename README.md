@@ -14,17 +14,17 @@ by a demo program.
 -demo_hpt.m - A demo program of Hyperbolic power transformation with parameter estimation by (1) the method of 
               percentile and (2) Maximum Likelihood Estimation (MLE). The histogram of the transformed data and 
               estimated parameters as well as Jarque-Bera test are shown in demp_hpt.jpg.
- Usage: 
+## Usage: 
 >>demo_hpt;
 
 
-Subroutines:
--hyperdistmop() - A program to implement equations (3)-(6) in the paper to estimate parameters 
+## Subroutines:
+- hyperdistmop() - A program to implement equations (3)-(6) in the paper to estimate parameters 
                   by the method of equating percentile points in terms of the linear order statistic. 
- Usage: 
+Usage: 
  >>[alpha, betaminus, lambdaminus, betaplus, lambdaplus] = hyperdistmop(x); % x: original data to be transformed
  
--hyperdistfminsearch() - The parameter estimation by MLE.
+- hyperdistfminsearch() - The parameter estimation by MLE.
  Usage: 
  >>[alpha, betaminus, lambdaminus, betaplus, lambdaplus] = hyperdistfminsearch(x, ...
    alpha0, betaminus0, lambdaminus0, betaplus0, lambdaplus0);
