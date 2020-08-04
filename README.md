@@ -25,12 +25,13 @@ Usage:
  >>[alpha, betaminus, lambdaminus, betaplus, lambdaplus] = hyperdistmop(x); % x: original data to be transformed
  
 - hyperdistfminsearch() - The parameter estimation by MLE.
+
  Usage: 
  >>[alpha, betaminus, lambdaminus, betaplus, lambdaplus] = hyperdistfminsearch(x, ...
    alpha0, betaminus0, lambdaminus0, betaplus0, lambdaplus0);
    
 
--pG() - A function to plot Gaussian curve.
+- pG() - A function to plot Gaussian curve.
 
 
 
