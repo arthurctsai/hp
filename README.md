@@ -1,4 +1,4 @@
-# Hyperbolic Power transformation demonstration
+# Hyperbolic Power transformation
 
 This is a supplementary materials of the paper:
 
