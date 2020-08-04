@@ -10,7 +10,7 @@ used in the demonstration: lognormal, Gamma, beta, Laplacian, uniform, and bimod
 both power and scale parameters by equi-percentile point estimation and maximum likelihood estimation are demonstrate 
 by a demo program.
 
-The demo script:
+## The demo script:
 -demo_hpt.m - A demo program of Hyperbolic power transformation with parameter estimation by (1) the method of 
               percentile and (2) Maximum Likelihood Estimation (MLE). The histogram of the transformed data and 
               estimated parameters as well as Jarque-Bera test are shown in demp_hpt.jpg.
@@ -31,6 +31,8 @@ Subroutines:
    
 
 -pG() - A function to plot Gaussian curve.
+
+
 
 ------
 When you use the code please cite:
