@@ -1,10 +1,10 @@
-# Hyperbolic Power transformation
+# Hyperbolic Power transformation demonstration
 
 This is a supplementary materials of the paper:
 
 Arthur C. Tsai*, Michelle Liou*, Maria Simak, and Philip E. Cheng. On hyperbolic transformations to normality. Computational Statistics & Data Analysis, 115:250–266, 2017.
 
-The scripts demonstrate the efficacy of hyperbolic power transformation in the four essential types of transformations: 
+The Matlab scripts demonstrate the efficacy of hyperbolic power transformation in the four essential types of transformations: 
 concave, convex, concave- to-convex, and convex-to-concave functions. Six families of probability distributions are 
 used in the demonstration: lognormal, Gamma, beta, Laplacian, uniform, and bimodal. The closed-form solutions of 
 both power and scale parameters by equi-percentile point estimation and maximum likelihood estimation are demonstrate 
@@ -14,7 +14,8 @@ The demo script:
 -demo_hpt.m - A demo program of Hyperbolic power transformation with parameter estimation by (1) the method of 
               percentile and (2) Maximum Likelihood Estimation (MLE). The histogram of the transformed data and 
               estimated parameters as well as Jarque-Bera test are shown in demp_hpt.jpg.
- Usage: >>demo_hpt;
+ Usage: 
+>>demo_hpt;
 
 
 Subroutines:
